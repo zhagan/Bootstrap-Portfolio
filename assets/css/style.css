@@ -1,0 +1,121 @@
+/* Move down content because we have a fixed navbar*/
+.wrapper {
+  flex: 1;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: calc(70px + 4vw); /*updated 11/10/17*/
+  padding-bottom: calc(60px + 1vw);
+  background-image: url("../images/regal.png");
+}
+
+nav {
+  background-color: #4aaaa5;
+  border-bottom: 8px double #d8d8d8; /*updated 11/10/17*/
+}
+
+/* Panels and Cards*/
+
+.panel-background{
+  background-color: #fff;
+  border: 1px solid #eee;
+  padding: 5%; /*updated 11/10/17*/
+}
+
+.card {
+  position: relative;
+  border: 0;
+}
+
+.card-body {
+  background-color: #4aaaa5;
+  position: absolute;
+  width: 100%;
+  top: calc(85% - 1.5em);/*updated 11/10/17*/
+}
+
+.card-title {
+  margin: 0;
+  line-height: 1.5em;
+}
+
+.card a {
+  text-decoration: none; /* no underline links */
+}
+
+/* Sticky footer styles */
+html {
+  position: absolute;
+  width: 100%;
+  min-width: 400px;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  min-width: 400px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #666;
+}
+footer p {
+  margin-bottom: 0;
+  color: #999;
+  font-size: calc(10px + 0.5vw); /*updated 11/10/17*/
+}
+
+/*Text styling*/
+.navbar-brand {
+  font-size: 26px;
+  line-height: 40px; /*updated 11/10/17*/
+  padding: 10px 0 5px 15px; /*updated 11/10/17*/
+}
+
+h2, h4, .navbar-brand {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+p, a, h3,h5 {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: calc(16px + 1vw); /*updated 11/10/17*/
+  color: #4aaaa5;
+}
+
+h3 {
+  font-size: calc(14px + 1vw);
+  text-align: center;
+}
+
+h4 {
+  font-size: calc(14px + 0.5vw); /*updated 11/10/17*/
+  color: #4aaaa5;
+}
+
+h5 {
+  color: #fff;
+  font-size: calc(14px + 0.5vw);
+  text-align: center;
+}
+
+p {
+  font-size: calc(12px + 0.5vw);
+  color: #777; /*added 11/10/17 Update*/
+}
+
+/*aside images */
+aside img {
+  width: 100%;
+}
+
+aside img:hover {
+  filter: drop-shadow(8px 8px 8px grey);
+}
