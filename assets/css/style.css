@@ -3,14 +3,14 @@
   flex: 1;
   padding-left: 10vw;
   padding-right: 10vw;
-  padding-top: calc(70px + 4vw); /*updated 11/10/17*/
+  padding-top: calc(70px + 4vw);
   padding-bottom: calc(60px + 1vw);
-  background-image: url("../images/regal.png");
+  background-image: url("../images/spiration dark.png");
 }
 
 nav {
   background-color: #4aaaa5;
-  border-bottom: 8px double #d8d8d8; /*updated 11/10/17*/
+  border-bottom: 8px double #d8d8d8;
 }
 
 /* Panels and Cards*/
